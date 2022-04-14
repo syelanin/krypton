@@ -1,0 +1,35 @@
+
+#main_table td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    vertical-align: top
+}
+
+#book_log table td {
+    padding-right: 20px
+}
+
+#trades_log table td {
+    padding-right: 20px
+}
+
+#ticker_log table td {
+    padding-right: 20px
+}
+
+#candles_log table td {
+    padding-right: 20px
+}
+
+
+.bold {
+    font-weight: bold
+}
+
+.red {
+    background-color: #f8e0e0
+}
+
+.green {
+    background-color: #e0f8e6
+}

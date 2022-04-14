@@ -1,0 +1,66 @@
+{
+    "exchange": {
+        
+        "cex": {
+            "url": "https://cex.io/api",
+            "key": "api_key",
+            "secret": "api_secret",
+            "userid": "user_id"
+        },
+
+        "bitfinex": {
+            "url": "https://api.bitfinex.com",
+            "key": "api_key",
+            "secret": "api_secret"
+        },
+
+        "bittrex": {
+            "url": "https://bittrex.com/api",
+            "key": "api_key",
+            "secret": "api_secret"
+        },
+
+        "emulator": {
+            "history": {
+                "main": {
+                    "timeframe": "1h",
+                    "interval": 1
+                },
+                "tick": {
+                    "timeframe": "1h",
+                    "interval": 1
+                },
+                "balances": {
+                    "btc": 0.1,
+                    "usd": 1000
+                }
+            }
+        }
+    },
+
+
+    "strategy": {
+        "trend": {
+            "ma_only": {
+                "ma1": 20,
+                "ma2": 50,
+                "ma3": 200,
+                "tail_body_ratio": 0.2,
+                "distance_to_ma": 0,
+                "lot": 0.002
+            },
+            "wma_band": {
+                "ma": 20,
+                "tail_body_ratio": 0.1,
+                "distance_to_ma": 20,
+                "lot": 0.002
+            },
+            "level": {
+                "ma": 20,
+                "tail_body_ratio": 0.1,
+                "distance_to_ma": 20,
+                "lot": 0.002
+            }
+        }
+    }
+}

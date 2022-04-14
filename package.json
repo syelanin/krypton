@@ -1,0 +1,31 @@
+{
+  "name": "krypton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "data:save": "node scripts/data-save.js",
+    "data:load": "node scripts/data-load.js",
+    "data:save:cds": "node scripts/data-save-cds.js",
+    "db:save": "node scripts/db-save.js",
+    "test:ex": "node test/ex.js",
+    "test:api": "node test/api.js"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "bot"
+  ],
+  "author": "Serg Yelanin",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.29.1",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "pg": "^7.4.3",
+    "superagent": "^3.8.2",
+    "ws": "^4.0.0"
+  }
+}
